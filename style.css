@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(imagenes/bg.png);
+    background-position:center bottom ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+} 
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 2px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt {
+    text-align: center; 
+}
+
+.header-txt h1 {
+    font-size: 60px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.header-txt p {
+    text-align: justify;
+    color: #bebebe;
+    font-size: 16px;
+    padding: 0 250px;
+    margin-bottom: 45px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 12px 45px;
+    border: 1px solid #fffdfc;
+    color: #fffdfc;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn-1:hover{
+    color: #1b293a;
+    background-color: #fffdfc;
+}
+
+
+.general {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.general-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.general-1 {
+    background-image: url(imagenes/ing2.avif);
+    background-position: center center;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    height: 650px;
+    padding: 170px 25px;
+
+}
+
+.general-2 {
+    background-image: url(imagenes/ing2.avif);
+    background-position: center center;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    height: 650px;
+    padding: 170px 50px;
+    
+}
+
+.general-3 {
+    background-image: url(imagenes/ing2.avif);
+    background-position: center center;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    height: 650px;
+    padding: 170px 5px;
+    
+}
+
+.general-4 {
+    background-image: url(imagenes/ing2.avif);
+    background-position: center center;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    height: 650px;
+    padding: 170px 55px;
+    
+}
+.general-5 {
+    background-image: url(imagenes/ing2.avif);
+    background-position: center center;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    height: 650px;
+    padding: 170px 55px;
+    
+}
+.general-6 {
+   background-image: url(videos/Fundamentos\ de\ ingenieria.mp4);
+    background-position: center center;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    height: 650px;
+    padding: 170px 55px;
+    
+}
+
+h2 {
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #1b293a;
+}
+
+.txt h3{
+    
+    color: #ebeef3;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.txt p {
+    text-align: justify;
+    color: #000000;
+    font-size: 18px;
+    
+}
+
+.info-1 {
+    padding: 250px;
+    background-image: url(imagenes/bg2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.info-content {
+    text-align: center;
+}
+
+.info-content h2, span{
+    color: #fffdfc;
+}
+
+.info-circle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.circle-txt {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 0 10px;
+}
+
+.circle-1 {
+    height: 100px;
+    width: 100px;
+   
+}
+
+.circle-1 h3 {
+    color: #f6f5fe;
+    font-size: 19px;
+    text-align: center;
+
+}
+.circle-txt p {
+    color: #9e9d9d;
+    margin-top: 29px;
+}
+
+.info-2 {
+    padding: 250px 0;
+    background-image: url(imagenes/bg3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.testi {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 35px;
+}
+
+.testi-left {
+    width: 50%;
+    padding-right: 25px;
+}
+.testi-right {
+    width: 50%;
+    padding-left: 35px;
+}
+
+.testi-txt {
+    margin-bottom: 25px;
+}
+
+.testi-txt img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.testi-txt h3 {
+    font-size: 20px;
+    color: #fffdfc;
+}
+
+
+.testi-txt p {
+    color: #bebebe;
+    font-size: 16px;
+}
+
+.footer {
+    padding: 100px 0 0 0;
+    text-align: center;
+}
+
+.form {
+    margin-top: 35px;
+}
+
+.campo {
+    margin-right: 10px;
+    padding: 17px 35px;
+    border: 2px solid #b4b4b4;
+    outline: none;
+    color: #1b293a;
+}
+
+.campo::placeholder {
+    color: #b4b4b4;
+}
+
+.btn-2 {
+    padding: 17px 35px;
+    border: 2px solid #1b293a;
+    background-color: #1b293a;
+    color: #fffdfc;
+}
+
+.footer-txt {
+    margin-top: 100px;
+    border-top: 1px solid #b4b4b47e;
+    padding: 20px 0;
+}
+
+.footer-txt p{
+    color: #1b293a;
+    font-size: 16px;
+}
+.form-register {
+    width: 100%;
+    max-width: 400px;
+    background-color: #f8f8f8;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+
+.form-register h4 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.controls {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+.controls:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+
+.controls[name="message"] {
+    resize: vertical;
+    height: 100px;
+}
+
+.botons {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.botons:hover {
+    background-color: #0056b3;
+}
+
+
+@media (max-width: 480px) {
+    .form-register {
+        padding: 20px;
+    }
+    .form-register h4 {
+        font-size: 1.2em;
+    }
+}
+
+
+
+
